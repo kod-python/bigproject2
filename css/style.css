@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    transition: all 0.5s linear;
+}
+
+
+
+body{
+    background-color: #d6d4d4;
+}
+
+/* universal starts here */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+/* universal ends here */
+
+/* header starts here */
+
+
+header .head-left{
+    /* background-image: url("../images/19145a7273572b57f31b4c7b5aa4f257.jpg"); */
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 700px;
+    background-color: rgb(22, 19, 19);
+    padding: 3rem;
+}
+
+
+header .head-right{
+    background-image: url("../images/8832.jpg_wh1200.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    z-index: -1;
+}
+
+
+
+header .head-left-right{
+    display: flex;
+}
+
+
+header .head-le{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18rem;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+header nav ul li a{
+    margin: 15px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+header .kon{
+    display: flex;
+    align-items: center;
+}
+
+header .kon h2{
+    color: white;
+    
+}
+
+header .h2-p{
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 5rem;
+}
+
+header .h2-p h2{
+    padding-bottom: 2rem;
+}
+
+
+header .h2-p p{
+    padding-bottom: 4rem;
+    font-size: 1rem;
+    color: grey;
+}
+
+
+
+
+header .jaka-jak{
+    display: flex;
+    align-items: center;
+   gap: 3rem;
+   background-color: white;
+   height: 95px;
+width: 800px;
+   border-radius: 0.5rem;
+   padding: 20px;
+  
+ 
+}
+
+
+header .fa-search{
+   border: 1px solid;
+   border-radius: 1rem;
+   font-size: 2rem;
+}
+
+
+header .fa-both{
+    display: flex;
+    gap: 3rem;
+    margin-top: 4rem;
+    color: grey;
+}
+
+
+
+
+header .head-right button{
+    padding: 0.7rem 1.6rem;
+    color: white;
+    background-color: blue;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-top: 3rem;
+    
+
+}
+
+
+header .bitbit{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* header ends here */
+
+
+/* property section starts here */
+
+#property .property-top{
+    background-color: white;
+    width: 1234px;
+    margin-top: -0.9rem;
+}
+
+#property nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    text-transform: capitalize;
+    padding-bottom: 3rem;
+    
+}
+
+
+#property nav ul li a{
+
+    margin: 10px;
+    text-decoration: underline  grey ;
+
+}
+
+#property .sur-sur{
+    display: flex;
+    align-items: center;
+   gap: 3rem;
+   justify-content: space-evenly;
+   padding-bottom: 5rem;
+}
+
+
+/* property section ends here */
+
+
+/* contact starts here */
+
+/* contact ends here */
+
+
+
+/* footer starts here */
+
+/* footer ends here */
+
+
+
+
+
+
+/* MOBILE STARTS HERE */
+
+/* universal  */
+
+.container1{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+/* universal ends here */
+
+
+/* header starts here */
+
+
+#mobile header .head-left{
+    /* background-image: url("../images/19145a7273572b57f31b4c7b5aa4f257.jpg"); */
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 700px;
+    background-color: rgb(22, 19, 19);
+    padding: 3rem;
+}
+
+
+#mobile  .head-right{
+    background-image: url("../images/8832.jpg_wh1200.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:500px;
+    height: 520px;
+    
+}
+
+
+
+#mobile  .head-left-right{
+    display: flex;
+flex-direction: column;
+}
+
+
+#mobile header .head-le{
+   
+    display: flex;
+    align-items: center;
+    
+  
+  
+}
+
+#mobile header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#mobile header nav ul li a{
+    margin: 15px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#mobile header .kon{
+    display: flex;
+    align-items: center;
+}
+
+#mobile header .kon h2{
+    color: white;
+    
+}
+
+#mobile header .h2-p{
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 5rem;
+}
+
+#mobile header .h2-p h2{
+    padding-bottom: 2rem;
+}
+
+
+#mobile header .h2-p p{
+    padding-bottom: 4rem;
+    font-size: 1rem;
+    color: grey;
+}
+
+
+
+
+#mobile header .jaka-jak{
+    display: flex;
+    align-items: center;
+   gap: 16rem;
+   background-color: white;
+   height: 95px;
+width:400px;
+   border-radius: 0.5rem;
+   padding: 20px;
+  
+ 
+}
+
+
+#mobile header .fa-search{
+   border: 1px solid;
+   border-radius: 1rem;
+   font-size: 2rem;
+}
+
+
+#mobile header .fa-both{
+    display: flex;
+    gap: 1rem;
+    margin-top: 4rem;
+    color: grey;
+    flex-direction: column;
+}
+
+
+
+
+#mobile header .head-right button{
+    padding: 0.7rem 1.6rem;
+    color: white;
+    background-color: blue;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-top: 3rem;
+    
+
+}
+
+
+#mobile header .btt{
+   margin-left: -4rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+#mobile  .ctn{
+    width: 40px;
+    margin: 2px;
+    
+    
+    
+}
+
+
+/* header ends here */
+
+
+/* property section starts here */
+
+#mobile-property  .property-top{
+    background-color: white;
+   width: 500px;
+    margin-top: -0.9rem;
+    
+}
+
+
+
+
+#mobile-property .sur-sur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 3rem;
+   justify-content: space-evenly;
+   padding-bottom: 5rem;
+}
+
+
+
+/* property section ends here */
+
+/* MOBILE ENDS HERE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* review starts here */
+
+/* .review .review-slider{
+    padding-bottom: 2rem;
+  }
+
+  .review .box{
+    padding:2rem;
+    text-align: center;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+  }
+
+  .review .box img{
+    height:13rem;
+    width:13rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+  .review .box h3{
+    color:#333;
+    font-size: 2.5rem;
+  }
+
+  .review .box p{
+    color:#666;
+    font-size: 1.5rem;
+    padding:1rem 0;
+  }
+
+  .review .box .stars i{
+    color:var(--orange);
+    font-size: 1.7rem;
+  } */
+/* review ends here */
