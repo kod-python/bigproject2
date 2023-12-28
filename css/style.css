@@ -21,10 +21,14 @@ body{
     padding: 1%;
 }
 
+
+
 /* universal ends here */
 
-/* header starts here */
 
+
+
+/* header starts here */
 
 header .head-left{
     /* background-image: url("../images/19145a7273572b57f31b4c7b5aa4f257.jpg"); */
@@ -51,11 +55,13 @@ header .head-right{
 
 header .head-left-right{
     display: flex;
+    
 }
 
 
 header .head-le{
     display: flex;
+   
     align-items: center;
     justify-content: space-between;
     gap: 18rem;
@@ -73,6 +79,13 @@ header nav ul li a{
     margin: 15px;
     color: white;
     font-size: 1.2rem;
+    transition: 2s ease forwards;
+    transition-property: color;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    color: blue;
 }
 
 header .kon{
@@ -108,7 +121,7 @@ header .h2-p p{
 header .jaka-jak{
     display: flex;
     align-items: center;
-   gap: 3rem;
+   gap: 5rem;
    background-color: white;
    height: 95px;
 width: 800px;
@@ -117,12 +130,30 @@ width: 800px;
   
  
 }
+header .p-fa{
+    display: flex;
+    align-items: center;
+    gap:0.3rem;
+}
 
 
 header .fa-search{
-   border: 1px solid;
-   border-radius: 1rem;
-   font-size: 2rem;
+ 
+   font-size: 1.4rem;
+   margin-top: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+}
+
+header .ser{
+    border: 1px solid;
+    border-radius: 0.5rem;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+
 }
 
 
@@ -133,6 +164,17 @@ header .fa-both{
     color: grey;
 }
 
+
+header .fa-ck{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    
+}
+
+header .fa-check-circle{
+    color: blue;
+}
 
 
 
@@ -179,8 +221,15 @@ header .bitbit{
 #property nav ul li a{
 
     margin: 10px;
-    text-decoration: underline  grey ;
+   color: grey;
+   transition: 2s ease forwards;
+   transition-property: color;
 
+}
+
+#property nav ul li a:hover{
+    color: blue;
+    text-decoration: underline;
 }
 
 #property .sur-sur{
@@ -190,19 +239,103 @@ header .bitbit{
    justify-content: space-evenly;
    padding-bottom: 5rem;
 }
+#property img{
+    filter: grayscale(0) ;
+    
+    transition: 1s all filter;
+    box-shadow: 0px 0px 18px blue;
+  
+  
+}
+
+#property img:hover{
+    filter: grayscale(2);
+    box-shadow: 0px 0px 18px blue;
+  
+
+   
+}
 
 
 /* property section ends here */
 
 
-/* contact starts here */
-
-/* contact ends here */
-
-
 
 /* footer starts here */
 
+footer #foot-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(43, 5, 78);
+    color: white;
+    padding-bottom: 2rem;
+    margin-top: -5rem;
+  
+}
+
+
+footer{
+    margin-top: -20rem;
+}
+
+
+footer .icons{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+   
+}
+
+
+footer .cont{
+    line-height: 1.9rem;
+}
+
+footer .quick{
+    line-height: 1.9rem;
+}
+
+footer .about{
+    line-height: 1.5rem;
+    padding-bottom: 10px;
+}
+
+footer .services{
+    line-height: 1.9rem;
+}
+
+footer .foot-imi{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+   
+}
+footer .foot-imi img{
+    transition: 2s ease forwards;
+    transition-property: background-color;
+}
+
+footer .foot-imi img:hover{
+    background-color: blue;
+}
+
+
+
+footer .abot-main{
+    margin-top: 2rem;
+}
+
+footer .fot-down{
+    background-color: rgb(43, 5, 78);
+    color: white;
+   text-align: center;
+   padding-bottom: 4rem;
+}
+
+footer .demo{
+    color: white;
+}
 /* footer ends here */
 
 
@@ -219,6 +352,8 @@ header .bitbit{
     margin: 0 auto;
     padding: 1%;
 }
+
+
 /* universal ends here */
 
 
@@ -311,7 +446,7 @@ flex-direction: column;
 #mobile header .jaka-jak{
     display: flex;
     align-items: center;
-   gap: 16rem;
+  gap: 13rem;
    background-color: white;
    height: 95px;
 width:400px;
@@ -323,9 +458,18 @@ width:400px;
 
 
 #mobile header .fa-search{
-   border: 1px solid;
-   border-radius: 1rem;
-   font-size: 2rem;
+  display: flex;
+  align-items: center;
+   font-size: 1.5rem;
+   margin-top: rem;
+}
+
+#mobile header .serh{
+    border: 1px solid;
+    background-color: blue;
+    border-radius: 0.5rem;
+    width: 50px;
+    height: 50px;
 }
 
 
@@ -377,7 +521,8 @@ width:400px;
 #mobile-property  .property-top{
     background-color: white;
    width: 500px;
-    margin-top: -0.9rem;
+    margin-top: -2rem;
+ 
     
 }
 
@@ -393,9 +538,115 @@ width:400px;
    padding-bottom: 5rem;
 }
 
+#mobile-property img{
+    filter: grayscale(0) ;
+    
+    transition: 1s all filter;
+    box-shadow: 0px 0px 18px blue;
+  
+}
+
+#mobile-property img:hover{
+    filter: grayscale(2);
+    box-shadow: 0px 0px 18px blue;
+   
+}
+
 
 
 /* property section ends here */
+
+
+/* mobile footer starts here */
+
+
+/* footer starts here */
+
+footer #mobile-foot-main{
+   
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(43, 5, 78);
+    color: white;
+    padding-bottom: 2rem;
+    margin-top: -1rem;
+    width: 500px;
+    padding: 5rem;
+    margin-top: -3rem;
+  
+}
+
+
+
+
+footer .mobile-icons{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+   
+}
+
+
+footer .mobile-cont{
+    line-height: 1.9rem;
+    padding-bottom: 3rem;
+}
+
+footer .mobile-quick{
+    line-height: 1.9rem;
+}
+
+footer .mobile-about{
+    line-height: 1.5rem;
+    padding-bottom: 10px;
+    margin-top: -4rem;
+}
+
+footer .mobile-services{
+    line-height: 1.9rem;
+    padding-bottom: 3rem;
+}
+
+footer .mobile-foot-imi{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 3rem;
+   
+}
+footer .mobile-foot-imi img{
+    transition: 2s ease forwards;
+    transition-property: background-color;
+}
+
+footer .mobile-foot-imi img:hover{
+    background-color: blue;
+}
+
+
+
+footer .mobile-abot-main{
+    margin-top: 2rem;
+}
+
+footer .mobile-fot-down{
+    background-color: rgb(43, 5, 78);
+    color: white;
+   text-align: center;
+   padding-bottom: 4rem;
+   width: 500px;
+}
+
+footer .demo{
+    color: white;
+}
+/* footer ends here */
+
+
+/* mobile footer ends here */
+
+
 
 /* MOBILE ENDS HERE */
 
