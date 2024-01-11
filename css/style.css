@@ -380,6 +380,7 @@ footer .demo{
 
 margin-top: 2rem;
 
+
     
 }
 
@@ -542,7 +543,7 @@ width:400px;
 /* property section starts here */
 
 #mobile-property  .property-top{
-    background-color: white;
+    background-color: #FFFFFF;
    width: 500px;
     margin-top: -1rem;
     padding: 2rem;
