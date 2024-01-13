@@ -20,7 +20,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 740px;
+    height: 880px;
     color: white;
     /* padding: 0 150px; */
 }
@@ -92,6 +92,7 @@ header .card{
     background-color: #FFFFFF;
     border-radius: 0.4rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     /* gap: 10rem; */
@@ -267,6 +268,7 @@ aside{
 
 footer #foot-main{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     background-color: rgb(43, 5, 78);
