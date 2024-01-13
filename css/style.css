@@ -8,8 +8,6 @@
 }
 
 
-
-
 /* header starts here */
 
 
@@ -24,11 +22,11 @@
     background-repeat: no-repeat;
     height: 690px;
     color: white;
-    padding: 0 150px;
+    /* padding: 0 150px; */
 }
 header .main{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
     padding: 20px 0;
     height: 70px;
@@ -61,9 +59,12 @@ header .heading{
 margin-top: 20px;
 }
 header .heading h1{
-    font-size: 60px;
-    width: 50%;
+    padding-left: 10rem;
+     /* padding: 10rem; */
+    font-size: 50px;
+    width: 100%;
     padding-bottom: 3rem;
+    margin-top: 20px;
     
 }
 
@@ -71,6 +72,7 @@ header .desc{
     font-size: 1.5rem;
     color: #535963;
     padding-bottom: 3rem;
+    padding-left: 10rem;
 }
 
 header .card{
@@ -82,6 +84,7 @@ header .card{
     /* gap: 10rem; */
     padding: 20px;
     width: 1000px;
+    margin-left: 10rem;
     
 }
 
@@ -113,6 +116,7 @@ header .tags{
     display: flex;
     align-items: center;
     gap: 70px;
+    padding-left: 10rem;
 }
 
 header .tags .fa-check-circle{
@@ -186,11 +190,12 @@ aside{
     text-decoration: underline;
 }
 #property .sur-sur{
-    width: 90%;
+    /* width: 90%; */
     margin: 20px auto;
 
     /* border: 1px solid; */
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -251,7 +256,9 @@ footer{
 
 footer .icons{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    grid-template-columns: auto auto auto auto;
     gap: 0.5rem;
    
 }
@@ -311,7 +318,7 @@ footer .demo{
 
 @media only screen and (max-width:320px){
 
-    *{
+    /* *{
         box-sizing: border-box;
     }
  body{
@@ -322,9 +329,9 @@ header{
    width: 100%;
  
   
-  }
+  } */
     header .main{
-        width: 100%;
+        /* width: 100%; */
         display: flex;
         justify-content:center;
         align-items: center;
