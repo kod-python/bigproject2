@@ -48,7 +48,18 @@ header .main nav ul li a{
     color: white;
     font-size: 25px;
     text-transform: capitalize;
+    transition: 2s ease forwards;
+   transition-property: color;
 }
+
+
+header .main nav ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
 header .main .get-started{
     font-size: 25px;
     text-transform: capitalize;
