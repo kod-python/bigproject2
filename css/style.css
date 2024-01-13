@@ -84,7 +84,7 @@ header .card{
     align-items: center;
     justify-content: space-between;
     /* gap: 10rem; */
-    padding: 20px;
+    padding: 5px;
     width: 1000px;
     margin-left: 10rem;
     
@@ -100,7 +100,7 @@ header .search{
     border: 1px solid;
     border-radius: 5px;
     background-color: #3E70F1;
-    padding: 15px;
+    padding: 10px;
 }
 
 header .card .card-info p{
@@ -113,7 +113,9 @@ header .card .card-info span{
     line-height: 0.5rem;
 }
 
-
+header .card .card-info{
+    padding-left: 2rem;
+}
 header .card .card-info1{
     display: flex;
     align-items: center;
