@@ -115,7 +115,13 @@ header .search{
     padding: 10px;
 }
 
-header .card .card-info p{
+header .card .card-info-main p{
+    font-size: 1.4rem;
+   color: black;
+   line-height: 2.1rem;
+}
+
+header .card .card-info-down p{
     font-size: 1.4rem;
    color: black;
    line-height: 2.1rem;
@@ -125,14 +131,22 @@ header .card .card-info span{
     line-height: 0.5rem;
 }
 
-header .card .card-info{
+header .card .card-info-main{
     padding-left: 1.5rem;
 }
+
+header .card .card-info-down{
+    padding-left: 1.5rem;
+}
+
+
+
 header .card .card-info1{
     display: flex;
     align-items: center;
     gap: 0.4rem;
 }
+
 
 header .fa-angle-down{
     color:black;
@@ -348,29 +362,7 @@ footer .demo{
 
 @media only screen and (max-width:320px){
 
-    /* *{
-        box-sizing: border-box;
-    }
- body{
-    width: 100%;
- }
-
-header{
-   width: 100%;
- 
-  
-  } */
-
-  .header{
-    background-image: url(../images/konko.avif);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 740px;
-    color: white;
-    /* padding: 0 150px; */
-}
-
+   
   
     header .main{
         /* width: 100%; */
@@ -440,83 +432,107 @@ header{
 
     /* property starts here */
 
-    /* property starts here */
-#property .property-top{
-    background-color: #FFFFFF;
-
-    margin-top: 7rem;
-    padding-bottom: 30rem;
-}
-
-#property nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    text-transform: capitalize;
-    padding-bottom: 3rem;
-    
-}
-
-
-#property nav ul li a{
-
-    margin: 10px;
-   color: grey;
-   transition: 2s ease forwards;
-   transition-property: color;
-
-}
-
-#property nav ul li a:hover{
-    color: blue;
-    text-decoration: underline;
-}
-#property .sur-sur{
-    width: 90%;
-    margin: 20px auto;
-
-    /* border: 1px solid; */
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    grid-template-columns: auto auto;
-}
-#property .sur-sur .sur {
-    width: 320px;
-    border: 1px solid;
-    background-color: crimson;
-    padding: 20px;
-    border-radius: 10px;
-}
-#property .sur-sur .sur img{
-    width: 100%;
-    border-radius: 20px;
-}
-#property .sur-sur .sur .text{
-    padding-left: 15px;
    
+
+
+
+
 }
-#property .sur-sur .sur .text h2{
+
+
+
+@media only screen and (max-width:768px){
+     
+    header .main{
+        /* width: 100%; */
+        display: flex;
+        justify-content:right;
+        align-items: center;
+        gap: 11rem;
+        height: 70px;
+    }
+    header .main nav{
+        display: none;
+    }
+    header .main nav ul{
+        display: flex;
+        gap: 10px;
+    }
+    .header .main .logo{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    header .main nav ul li a{
+        color: white;
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+    header .main .get-started{
+       display: none;
+    }
+    header .hamburger i{
+        font-size: 25px;
+        width: 40px;
+    }
+    header .heading{
     margin-top: 20px;
-    margin-bottom: 5px;
-    color: #363636;
-}
-#property .sur-sur .sur .text p{
-    color: rgb(110, 109, 109);
-}
-#property .sur-sur .sur .text .price{
-    margin: 20px 0;
-    color: #356cf8;
-    font-size: 1.5rem;
-}
+    }
+    header .heading h1{
+        display: flex;
+        font-size: 2rem;
+        
+        
+    }
 
 
-/* property section ends here */
+     header .card .card-info-down{
+        display: none;
+     }
+
+     header .card{
+        width: 320px;
+     }
+
+     header .card{
+        display: flex;
+     }
 
 
+     header .card .card-info .card-info3{
+        display: none;
+     }
 
+
+    .hamburger{
+        display: block;
+    }
+    aside {
+        display: none;
+        position: absolute;
+        top: 9%;
+        left: 54%;
+        padding: 20px;
+        background-color: white;
+        height: 500px;
+        width: 150px;
+        border-radius: 8px 0px 0px 8px;
+    }
+    aside nav ul {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    aside nav ul li a{
+        text-transform: capitalize;
+        text-decoration: none;
+        color: black;
+    }
+    /*header ends here  */
+
+
+    /* property starts here */
+
+   
 
 }
 
